@@ -138,20 +138,14 @@ export default function About() {
               <div className="col-sm-6 col-lg-3 py-3">
                 <h5>Company</h5>
                 <ul className="footer-menu">
-                  <li><a href="#">About Us</a></li>
+                <li><Link to = "/"><a className="nav-link">Home</a></Link></li>
+                <Link to = "/about"><a className="nav-link">About Us</a></Link>
                   <li><a href="#">Career</a></li>
                   <li><a href="#">Editorial Team</a></li>
                   <li><a href="#">Protection</a></li>
                 </ul>
               </div>
               <div className="col-sm-6 col-lg-3 py-3">
-                <h5>More</h5>
-                <ul className="footer-menu">
-                  <li><a href="#">Terms &amp; Condition</a></li>
-                  <li><a href="#">Privacy</a></li>
-                  <li><a href="#">Advertise</a></li>
-                  <li><a href="#">Join as Doctors</a></li>
-                </ul>
               </div>
               <div className="col-sm-6 col-lg-3 py-3">
                 <h5>Our partner</h5>

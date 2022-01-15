@@ -45,9 +45,6 @@ export default function Home() {
               <a className="nav-link" href="doctors.html">Doctors</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="blog.html">News</a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="contact.html">Contact</a>
             </li>
             <li className="nav-item">
@@ -126,20 +123,11 @@ export default function Home() {
         <div className="col-sm-6 col-lg-3 py-3">
           <h5>Company</h5>
           <ul className="footer-menu">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Editorial Team</a></li>
-            <li><a href="#">Protection</a></li>
+          <Link to = "/about"><a className="nav-link">About Us</a></Link>
+            <li><a href="#">Doctor</a></li>
           </ul>
         </div>
         <div className="col-sm-6 col-lg-3 py-3">
-          <h5>More</h5>
-          <ul className="footer-menu">
-            <li><a href="#">Terms &amp; Condition</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Advertise</a></li>
-            <li><a href="#">Join as Doctors</a></li>
-          </ul>
         </div>
         <div className="col-sm-6 col-lg-3 py-3">
           <h5>Our partner</h5>
