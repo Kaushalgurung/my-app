@@ -29,7 +29,7 @@ export default function Doctor() {
           </div> {/* .topbar */}
           <nav className="navbar navbar-expand-lg navbar-light shadow-sm">
             <div className="container">
-              <a className="navbar-brand" href="index.html"><span className="text-primary">Care</span>-U</a>
+            <Link to = "/"><a className="navbar-brand" ><span className="text-primary">Care</span>-U</a></Link>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon" />
               </button>
