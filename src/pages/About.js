@@ -72,7 +72,7 @@ export default function About() {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 wow fadeInUp">
-                <h1 className="text-center mb-3">Welcome to Your Health Center</h1>
+                <h1 className="text-center mb-3">Welcome to Care-U</h1>
                 <div className="text-lg">
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque sit, explicabo vero nulla animi nemo quae cumque, eaque pariatur eum ut maxime! Tenetur aperiam maxime iure explicabo aut consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque sit, explicabo vero nulla animi nemo quae cumque, eaque pariatur eum ut maxime! Tenetur aperiam maxime iure explicabo aut consequuntur.</p>
                   <p>Expedita iusto sunt beatae esse id nihil voluptates magni, excepturi distinctio impedit illo, incidunt iure facilis atque, inventore reprehenderit quidem aliquid recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod ad sequi atque accusamus deleniti placeat dignissimos illum nulla voluptatibus vel optio, molestiae dolore velit iste maxime, nobis odio molestias!</p>
@@ -140,9 +140,7 @@ export default function About() {
                 <ul className="footer-menu">
                 <li><Link to = "/"><a className="nav-link">Home</a></Link></li>
                 <Link to = "/about"><a className="nav-link">About Us</a></Link>
-                  <li><a href="#">Career</a></li>
-                  <li><a href="#">Editorial Team</a></li>
-                  <li><a href="#">Protection</a></li>
+                  <li><a href="#">Doctors</a></li>
                 </ul>
               </div>
               <div className="col-sm-6 col-lg-3 py-3">
