@@ -13,8 +13,8 @@ export default function RouterPage() {
                 <Switch>
                     <Route path="/" exact component = {Home} />
                     <Route path="/About" component = {About} />
-                    <Route path="/Doctor" component= {Doctor} />
-                    <Route path="/Contact" component={Contact} />
+                    <Route path="/Doctor" component = {Doctor} />
+                    <Route path="/Contact" component = {Contact} />
                 </Switch>
 
             </Router>

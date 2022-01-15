@@ -60,7 +60,7 @@ export default function Doctor() {
             <div className="container text-center wow fadeInUp">
               <nav aria-label="Breadcrumb">
                 <ol className="breadcrumb breadcrumb-dark bg-transparent justify-content-center py-0 mb-2">
-                  <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li className="breadcrumb-item"><Link to = "/"><a>Home</a></Link></li>
                   <li className="breadcrumb-item active" aria-current="page">Doctors</li>
                 </ol>
               </nav>
@@ -233,8 +233,8 @@ export default function Doctor() {
               </div>
               <div className="col-sm-6 col-lg-3 py-3">
                 <h5>Contact</h5>
-                <p className="footer-link mt-2">351 Willow Street Franklin, MA 02038</p>
-                <a href="#" className="footer-link">701-573-7582</a>
+                <p className="footer-link mt-2">Care-U,</p>
+                <a href="#" className="footer-link">Nepal</a>
                 <a href="#" className="footer-link">healthcare@temporary.net</a>
                 <h5 className="mt-3">Social Media</h5>
                 <div className="footer-sosmed mt-3">
