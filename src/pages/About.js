@@ -13,7 +13,7 @@ export default function About() {
                   <div className="site-info">
                     <a href="#"><span className="mai-call text-primary" /> +00 123 4455 6666</a>
                     <span className="divider">|</span>
-                    <a href="#"><span className="mai-mail text-primary" /> mail@example.com</a>
+                    <a href="mailto: marketingsginerix@gmail.com"><span className="mai-mail text-primary" /> mail@example.com</a>
                   </div>
                 </div>
                 <div className="col-sm-4 text-right text-sm">
