@@ -42,7 +42,7 @@ export default function Home() {
             <Link to = "/about"><a className="nav-link">About Us</a></Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="doctors.html">Doctors</a>
+            <Link to = "/doctor"><a className="nav-link">Doctor</a></Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="contact.html">Contact</a>
