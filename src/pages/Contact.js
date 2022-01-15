@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function About() {
+export default function Contact() {
     return (
         <React.Fragment>
             <div className="back-to-top" />
@@ -35,13 +35,13 @@ export default function About() {
               </button>
               <div className="collapse navbar-collapse" id="navbarSupport">
                 <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
+                <li className="nav-item">
                   <Link to = "/"><a className="nav-link">Home</a></Link>
                   </li>
-                  <li className="nav-item active">
+                  <li className="nav-item">
                   <Link to = "/about"><a className="nav-link">About Us</a></Link>
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item active">
                   <Link to = "/doctor"><a className="nav-link">Doctor</a></Link>
                   </li>
                   <li className="nav-item">
@@ -61,75 +61,23 @@ export default function About() {
               <nav aria-label="Breadcrumb">
                 <ol className="breadcrumb breadcrumb-dark bg-transparent justify-content-center py-0 mb-2">
                   <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li className="breadcrumb-item active" aria-current="page">About</li>
+                  <li className="breadcrumb-item active" aria-current="page">Contact</li>
                 </ol>
               </nav>
-              <h1 className="font-weight-normal">About Us</h1>
+              <h1 className="font-weight-normal">Contact</h1>
             </div> {/* .container */}
           </div> {/* .banner-section */}
         </div> {/* .page-banner */}
         <div className="page-section">
           <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-8 wow fadeInUp">
-                <h1 className="text-center mb-3">Welcome to Care-U</h1>
-                <div className="text-lg">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque sit, explicabo vero nulla animi nemo quae cumque, eaque pariatur eum ut maxime! Tenetur aperiam maxime iure explicabo aut consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt neque sit, explicabo vero nulla animi nemo quae cumque, eaque pariatur eum ut maxime! Tenetur aperiam maxime iure explicabo aut consequuntur.</p>
-                  <p>Expedita iusto sunt beatae esse id nihil voluptates magni, excepturi distinctio impedit illo, incidunt iure facilis atque, inventore reprehenderit quidem aliquid recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod ad sequi atque accusamus deleniti placeat dignissimos illum nulla voluptatibus vel optio, molestiae dolore velit iste maxime, nobis odio molestias!</p>
-                </div>
-              </div>
-              <div className="col-lg-10 mt-5">
-                <h1 className="text-center mb-5 wow fadeInUp">Our Team</h1>
-                <div className="row justify-content-center">
-                  <div className="col-md-6 col-lg-4 wow zoomIn">
-                    <div className="card-doctor">
-                      <div className="header">
-                        <img src="../assets/img/doctors/doctor_1.jpg" alt="" />
-                        <div className="meta">
-                          <a href="#"><span className="mai-call" /></a>
-                          <a href="#"><span className="mai-logo-whatsapp" /></a>
-                        </div>
-                      </div>
-                      <div className="body">
-                        <p className="text-xl mb-0">Dr. Stein Albert</p>
-                        <span className="text-sm text-grey">Cardiology</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-lg-4 wow zoomIn">
-                    <div className="card-doctor">
-                      <div className="header">
-                        <img src="../assets/img/doctors/doctor_2.jpg" alt="" />
-                        <div className="meta">
-                          <a href="#"><span className="mai-call" /></a>
-                          <a href="#"><span className="mai-logo-whatsapp" /></a>
-                        </div>
-                      </div>
-                      <div className="body">
-                        <p className="text-xl mb-0">Dr. Alexa Melvin</p>
-                        <span className="text-sm text-grey">Dental</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6 col-lg-4 wow zoomIn">
-                    <div className="card-doctor">
-                      <div className="header">
-                        <img src="../assets/img/doctors/doctor_3.jpg" alt="" />
-                        <div className="meta">
-                          <a href="#"><span className="mai-call" /></a>
-                          <a href="#"><span className="mai-logo-whatsapp" /></a>
-                        </div>
-                      </div>
-                      <div className="body">
-                        <p className="text-xl mb-0">Dr. Rebecca Steffany</p>
-                        <span className="text-sm text-grey">General Health</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <h1 className="text-center wow fadeInUp">Contact us</h1>
+            <div className="form__group">
+              <a href="mailto: marketingsginerix@gmail.com" className="btn btn--white">Send Email</a>
             </div>
           </div>
+        </div>
+        <div className="maps-container wow fadeInUp">
+          <a className="map-location__link" href="https://www.google.com/maps/place/OM+Shanti+Chock,+Kathmandu+44600,+Nepal/@27.69091,85.345515,16z/data=!4m5!3m4!1s0x39eb198e309fabe3:0xa343c8fcded81ec7!8m2!3d27.69091!4d85.3455151?hl=en" target="blank">Find us in Google Maps</a>
         </div>
         {/* .banner-home */}
         <footer className="page-footer">
@@ -145,6 +93,13 @@ export default function About() {
                 </ul>
               </div>
               <div className="col-sm-6 col-lg-3 py-3">
+                <h5>More</h5>
+                <ul className="footer-menu">
+                  <li><a href="#">Terms &amp; Condition</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Advertise</a></li>
+                  <li><a href="#">Join as Doctors</a></li>
+                </ul>
               </div>
               <div className="col-sm-6 col-lg-3 py-3">
                 <h5>Our partner</h5>
@@ -170,9 +125,10 @@ export default function About() {
               </div>
             </div>
             <hr />
-            <p id="copyright">Copyright © 2021 <a href="#" target="_blank">Care-u</a>. All right reserved</p>
+            <p id="copyright">Copyright © 2021 <a href="#" target="_blank">Care-U</a>. All right reserved</p>
           </div>
         </footer>
         </React.Fragment>
+            
     )
 }

@@ -45,7 +45,7 @@ export default function Home() {
             <Link to = "/doctor"><a className="nav-link">Doctor</a></Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact.html">Contact</a>
+            <Link to = "/contact"><a className="nav-link">Contact</a></Link>
             </li>
             <li className="nav-item">
               <a className="btn btn-primary ml-lg-3" href="#">Login / Register</a>
@@ -123,8 +123,9 @@ export default function Home() {
         <div className="col-sm-6 col-lg-3 py-3">
           <h5>Company</h5>
           <ul className="footer-menu">
-          <Link to = "/about"><a className="nav-link">About Us</a></Link>
-            <li><a href="#">Doctor</a></li>
+                <li><Link to = "/about"><a className="nav-link">About Us</a></Link></li>
+                <li><Link to = "/doctor"><a className="nav-link">Doctor</a></Link></li>
+                <li><Link to = "/contact"><a className="nav-link">Contact</a></Link></li>
           </ul>
         </div>
         <div className="col-sm-6 col-lg-3 py-3">
