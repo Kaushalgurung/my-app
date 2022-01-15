@@ -60,7 +60,7 @@ export default function Home() {
       <div className="container text-center wow zoomIn">
         <span className="subhead">Let's make your life happier</span>
         <h1 className="display-4">Healthy Living</h1>
-        <a href="#" className="btn btn-primary">Let's Consult</a>
+        <Link to = "/doctor"><a href="#" className="btn btn-primary">Let's Consult</a></Link>
       </div>
     </div>
   </div>
