@@ -20,7 +20,6 @@ export default function Doctor() {
                   <div className="social-mini-button">
                     <a href="#"><span className="mai-logo-facebook-f" /></a>
                     <a href="#"><span className="mai-logo-twitter" /></a>
-                    <a href="#"><span className="mai-logo-dribbble" /></a>
                     <a href="#"><span className="mai-logo-instagram" /></a>
                   </div>
                 </div>
